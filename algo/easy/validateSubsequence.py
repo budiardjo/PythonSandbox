@@ -1,4 +1,3 @@
-
 # 0(n) time | O(1) space
 
 def validateSubsequence(array, sequence):
@@ -10,8 +9,9 @@ def validateSubsequence(array, sequence):
         arrIdx += 1
     return seqIdx == len(sequence)
 
+
 if __name__ == '__main__':
-    print(validateSubsequence([5,1,22,25,6,-1,8,10], [1,6,-1,10]))
+    print(validateSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 10]))
 
 # def validateSubsequence(array, sequence):
 #     seqIdx = 0
@@ -37,4 +37,3 @@ if __name__ == '__main__':
 #             index += 1
 #
 #     return False
-

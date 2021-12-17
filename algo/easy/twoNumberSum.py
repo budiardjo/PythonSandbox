@@ -1,5 +1,5 @@
-def twoNumberSum (array, targetSum):
-    for i in range(len(array) - 1 ):
+def twoNumberSum(array, targetSum):
+    for i in range(len(array) - 1):
         firstNum = array[i]
         for j in range(i + 1, len(array)):
             secondNum = array[j]
@@ -7,5 +7,6 @@ def twoNumberSum (array, targetSum):
                 return [firstNum, secondNum]
     return []
 
-if __name__=='__main__':
-	print(twoNumberSum([1,3,4,5], 7))
+
+if __name__ == '__main__':
+    print(twoNumberSum([1, 3, 4, 5], 7))
